@@ -23,7 +23,8 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
+    "issueType": "DEPENDENCY",
+    "issueRepoName": "null"
   },
   "remediateSettings": {
     "workflowRules": {
