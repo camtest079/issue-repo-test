@@ -24,7 +24,7 @@
   "issueSettings": {
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY",
-    "issueRepoName": "null"
+    "issueRepoName": "tracker"
   },
   "remediateSettings": {
     "workflowRules": {
