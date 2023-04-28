@@ -1,35 +1,27 @@
 {
-  "scanSettings": {
-    "configMode": "AUTO",
-    "configExternalURL": "",
-    "projectToken": "",
-    "baseBranches": []
-  },
-  "scanSettingsSAST": {
-    "enableScan": false,
-    "scanPullRequests": false,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY",
-    "issueRepoName": "tracker"
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
+    "settingsInheritedFrom": "camtest079/whitesource-config@main",
+    "issueSettings": {
+        "minSeverityLevel": "LOW",
+        "issueRepoName": "tracker",
+        "customLabels": [
+            "type:defect",
+            "Sev 2",
+            "Mend",
+            "from:security",
+            "squad:cams"
+        ],
+        "assignees": [
+            "kanes"
+        ]
+    },
+    "remediateSettings": {
+        "enableRenovate": true
+    },
+    "scanSettings": {
+        "baseBranches": [
+            "master"
+        ],
+        "javaVersion": "11",
+        "configMode": "LOCAL"
     }
-  }
 }
-  
