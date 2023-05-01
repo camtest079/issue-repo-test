@@ -2,7 +2,7 @@
     "settingsInheritedFrom": "camtest079/whitesource-config@main",
     "issueSettings": {
         "minSeverityLevel": "LOW",
-        "issueRepoName": "tracker",
+        "issueRepoName": "issue-repo",
         "customLabels": [
             "type:defect",
             "Sev 2",
